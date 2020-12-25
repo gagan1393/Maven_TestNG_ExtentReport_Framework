@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.ohm.Listeners.MyTransform"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.ohm.Testcases.test_ohm_logintest">
+        <methods>
+          <include name="precondition"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="verifyloginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.ohm.Testcases.test_ohm_logintest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
