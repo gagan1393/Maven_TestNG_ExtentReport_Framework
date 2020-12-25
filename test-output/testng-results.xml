@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14268" started-at="2020-12-25T12:15:06Z" finished-at="2020-12-25T12:15:21Z">
+  <suite name="Default suite" duration-ms="20883" started-at="2020-12-25T14:14:12Z" finished-at="2020-12-25T14:14:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14268" started-at="2020-12-25T12:15:06Z" finished-at="2020-12-25T12:15:21Z">
+    <test name="Default test" duration-ms="20883" started-at="2020-12-25T14:14:12Z" finished-at="2020-12-25T14:14:33Z">
       <class name="com.ohm.Testcases.test_ohm_title">
-        <test-method status="PASS" signature="precondition()[pri:0, instance:com.ohm.Testcases.test_ohm_title@5cb9f472]" name="precondition" is-config="true" duration-ms="168" started-at="2020-12-25T12:15:06Z" finished-at="2020-12-25T12:15:06Z">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.ohm.Testcases.test_ohm_title@5cb9f472]" name="precondition" is-config="true" duration-ms="162" started-at="2020-12-25T14:14:12Z" finished-at="2020-12-25T14:14:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ohm.Testcases.test_ohm_title@5cb9f472]" name="setup" is-config="true" duration-ms="10742" started-at="2020-12-25T12:15:06Z" finished-at="2020-12-25T12:15:17Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ohm.Testcases.test_ohm_title@5cb9f472]" name="setup" is-config="true" duration-ms="15307" started-at="2020-12-25T14:14:12Z" finished-at="2020-12-25T14:14:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verify_ohm_title()[pri:1, instance:com.ohm.Testcases.test_ohm_title@5cb9f472]" name="verify_ohm_title" duration-ms="17" started-at="2020-12-25T12:15:17Z" finished-at="2020-12-25T12:15:17Z">
+        <test-method status="PASS" signature="verify_ohm_title()[pri:1, instance:com.ohm.Testcases.test_ohm_title@5cb9f472]" name="verify_ohm_title" duration-ms="29" started-at="2020-12-25T14:14:27Z" finished-at="2020-12-25T14:14:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_ohm_title -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ohm.Testcases.test_ohm_title@5cb9f472]" name="tearDown" is-config="true" duration-ms="1091" started-at="2020-12-25T12:15:17Z" finished-at="2020-12-25T12:15:18Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ohm.Testcases.test_ohm_title@5cb9f472]" name="tearDown" is-config="true" duration-ms="1109" started-at="2020-12-25T14:14:28Z" finished-at="2020-12-25T14:14:29Z">
           <params>
             <param index="0">
               <value>
@@ -30,11 +30,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="verify_ohm_Logo()[pri:2, instance:com.ohm.Testcases.test_ohm_title@5cb9f472]" name="verify_ohm_Logo" duration-ms="129" started-at="2020-12-25T12:15:18Z" finished-at="2020-12-25T12:15:18Z">
+        <test-method status="PASS" signature="verify_ohm_Logo()[pri:2, instance:com.ohm.Testcases.test_ohm_title@5cb9f472]" name="verify_ohm_Logo" duration-ms="171" started-at="2020-12-25T14:14:29Z" finished-at="2020-12-25T14:14:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_ohm_Logo -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ohm.Testcases.test_ohm_title@5cb9f472]" name="tearDown" is-config="true" duration-ms="497" started-at="2020-12-25T12:15:18Z" finished-at="2020-12-25T12:15:19Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ohm.Testcases.test_ohm_title@5cb9f472]" name="tearDown" is-config="true" duration-ms="101" started-at="2020-12-25T14:14:29Z" finished-at="2020-12-25T14:14:29Z">
           <params>
             <param index="0">
               <value>
@@ -45,11 +45,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="verify_ohm_login_header()[pri:3, instance:com.ohm.Testcases.test_ohm_title@5cb9f472]" name="verify_ohm_login_header" duration-ms="120" started-at="2020-12-25T12:15:19Z" finished-at="2020-12-25T12:15:19Z">
+        <test-method status="PASS" signature="verify_ohm_login_header()[pri:3, instance:com.ohm.Testcases.test_ohm_title@5cb9f472]" name="verify_ohm_login_header" duration-ms="246" started-at="2020-12-25T14:14:29Z" finished-at="2020-12-25T14:14:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_ohm_login_header -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ohm.Testcases.test_ohm_title@5cb9f472]" name="tearDown" is-config="true" duration-ms="520" started-at="2020-12-25T12:15:19Z" finished-at="2020-12-25T12:15:19Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.ohm.Testcases.test_ohm_title@5cb9f472]" name="tearDown" is-config="true" duration-ms="85" started-at="2020-12-25T14:14:29Z" finished-at="2020-12-25T14:14:29Z">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ohm.Testcases.test_ohm_title@5cb9f472]" name="teardown" is-config="true" duration-ms="1130" started-at="2020-12-25T12:15:19Z" finished-at="2020-12-25T12:15:21Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ohm.Testcases.test_ohm_title@5cb9f472]" name="teardown" is-config="true" duration-ms="3776" started-at="2020-12-25T14:14:29Z" finished-at="2020-12-25T14:14:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

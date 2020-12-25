@@ -10,23 +10,22 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import com.ohm.qa.Constants.Constants;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 public class Browserfactory {
 
 	public static WebDriver driver = null;
+	public static String browsername = Constants.browserName;
 	public static EventFiringWebDriver e_driver;
 	public static WebEventListener eventlistener;
 	static Logger logger=Logger.getLogger("OHM");
 	public static WebDriver initialize()
 	{
 		if(driver == null){
-			if(Constants.browserName.equalsIgnoreCase("chrome")) {
-				WebDriverManager.chromedriver().setup();
+			if(browsername.equalsIgnoreCase("chrome")) {
+				System.setProperty("webdriver.chrome.driver", Constants.CHROME_DRIVER_PATH);
 				driver = new ChromeDriver();
 			}
-			else if(Constants.browserName.equalsIgnoreCase("ff")) {
-				WebDriverManager.firefoxdriver().setup();
+			else if(browsername.equalsIgnoreCase("ff")) {
+				System.setProperty("webdriver.gecko.driver", Constants.FIREFOX_DRIVER_PATH);
 				driver = new FirefoxDriver();
 			}
 		}

@@ -2,7 +2,9 @@ package com.ohm.qa.Constants;
 
 public class Constants {
 	
-	public static String browserName = "chrome";
+	public static final String CHROME_DRIVER_PATH = System.getProperty("user.dir") + "/src/test/resources/Drivers/chromedriver.exe";
+	public static final String FIREFOX_DRIVER_PATH = System.getProperty("user.dir") + "/src/test/resources/Drivers/geckodriver.exe";
+	public static String browserName = "ff";
 	public static String URL = "https://opensource-demo.orangehrmlive.com/";
 	public static long pageLoadTimeout = 20;
 	public static long implicitlyWait = 10;

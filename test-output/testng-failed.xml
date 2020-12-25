@@ -3,15 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ohm.Testcases.test_ohm_logintest">
+      <class name="com.ohm.Testcases.test_ohm_title">
         <methods>
+          <include name="verify_ohm_title"/>
+          <include name="verify_ohm_login_header"/>
           <include name="precondition"/>
           <include name="teardown"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="verifyloginTest"/>
+          <include name="verify_ohm_Logo"/>
         </methods>
-      </class> <!-- com.ohm.Testcases.test_ohm_logintest -->
+      </class> <!-- com.ohm.Testcases.test_ohm_title -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
